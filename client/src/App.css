@@ -1,0 +1,29 @@
+    .scrollbar-hidden {
+        scrollbar-width: none;
+        /* Firefox */
+        -ms-overflow-style: none;
+        /* IE and Edge */
+    }
+
+    .scrollbar-hidden::-webkit-scrollbar {
+        display: none;
+        /* Chrome, Safari, Opera */
+    }
+
+    /* Target emoji-picker-react's scrollable areas */
+    .epr-body,
+    .epr-emoji-scroll-wrapper {
+        scrollbar-width: none;
+        /* Firefox */
+        -ms-overflow-style: none;
+        /* IE and Edge */
+    }
+
+    .epr-body::-webkit-scrollbar,
+    .epr-emoji-scroll-wrapper::-webkit-scrollbar {
+        display: none;
+        /* Chrome, Safari, Opera */
+    }
+    /* button:hover{
+        cursor: pointer;
+    } */
